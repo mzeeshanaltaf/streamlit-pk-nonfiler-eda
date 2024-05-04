@@ -67,7 +67,8 @@ def draw_plotly_chart():
 
 
 st.title("Non Filer Data Lookup")
-st.write("Search data of Pakistani citizens, who are non tax filers, using Full Name or CNICs.")
+st.write("Search data of Pakistani citizens, who are non tax filers for TY23, using Full Name, "
+         "First/Last Name or CNICs.")
 st.write("Press load button below to load the data.")
 st.info('🛈 Data loading time will vary depending on the speed of your internet connection')
 load = st.button("Load Data", type="primary")
