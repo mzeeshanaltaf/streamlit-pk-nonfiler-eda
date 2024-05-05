@@ -21,4 +21,5 @@ You must have Python 3.9 or later installed. Earlier versions of python may not 
 # Screen Shots
 ![image](https://github.com/mzeeshanaltaf/streamlit-pk-nonfiler-eda/assets/154883001/1783ec2a-48b9-4185-85d7-543607b63066)
 ![image](https://github.com/mzeeshanaltaf/streamlit-pk-nonfiler-eda/assets/154883001/0c90a770-e23f-4f76-84c8-1b56400f7df6)
-![image](https://github.com/mzeeshanaltaf/streamlit-pk-nonfiler-eda/assets/154883001/cf978f85-a19e-4a2a-9b7b-c1a4777d07b6)
+![image](https://github.com/mzeeshanaltaf/streamlit-pk-nonfiler-eda/assets/154883001/e570e20e-a19d-40e7-ba59-121151988c8f)
+
