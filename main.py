@@ -144,15 +144,21 @@ if selection == "Summary":
         st.error("Please load the data by clicking on Load Data button")
 
 if selection == "About":
-    st.markdown('''
-    * **About App:**  
-        * Search non-tax filers data of Pakistani citizens   
-        * Summary of non-tax filers i.e. total non-filers, males vs female, non-filers by provinces
-    * **Data:**
-        * Non-Filer data is taken from FBR website: https://www.fbr.gov.pk/Orders/Income-Tax-General-Order/81064?s=08. Released on April 2024.
-        * For analysis purpose, converted the PDF into CSV file
-    * **Contact:**
-        * App code along with CSV file is at:  https://github.com/mzeeshanaltaf/streamlit-pk-nonfiler-eda
-        * For any queries, email at zeeshan.altaf@gmail.com 
-
-    ''')
+    with st.expander("About this App"):
+        st.markdown(''' This app allows you to:
+        
+    - Search non-tax filers data of Pakistani citizens
+    - Summary of non-tax filers i.e. total non-filers, males vs female, non-filers by provinces
+        ''')
+    with st.expander("What is the source of the data?"):
+        st.markdown('''        
+    * Non-Filer data is taken from FBR website: https://www.fbr.gov.pk/Orders/Income-Tax-General-Order/81064?s=08. Released on April 2024.
+    * For analysis purpose, converted the PDF into CSV file
+        ''')
+    with st.expander("Where to get the source code of this app?"):
+        st.markdown(''' Source code along with CSV file is available at:
+    *  https://github.com/mzeeshanaltaf/streamlit-pk-nonfiler-eda
+        ''')
+    with st.expander("Whom to contact regarding this app?"):
+        st.markdown(''' Contact [Zeeshan Altaf](zeeshan.altaf@gmail.com)
+        ''')
